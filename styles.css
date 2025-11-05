@@ -13,7 +13,7 @@
 html,body{height:100%}
 body{
   background:var(--bg);
-  color:#111;
+  color:#00000;
   line-height:1.45;
   -webkit-font-smoothing:antialiased;
 }
