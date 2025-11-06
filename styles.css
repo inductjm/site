@@ -96,8 +96,16 @@ body{
 }
 
 .video-container video {
-  width: 50%;
-  max-width: 500px;
+  width: 80%;
+  max-width: 800px;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste automático en pantallas pequeñas */
+@media (max-width: 768px) {
+  .video-container video {
+    width: 100%;
+    max-width: none;
+  }
 }
